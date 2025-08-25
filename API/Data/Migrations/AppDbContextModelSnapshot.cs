@@ -29,7 +29,6 @@ namespace API.Data.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-<<<<<<< HEAD
                     b.Property<byte[]>("PasswordHash")
                         .IsRequired()
                         .HasColumnType("BLOB");
@@ -38,8 +37,6 @@ namespace API.Data.Migrations
                         .IsRequired()
                         .HasColumnType("BLOB");
 
-=======
->>>>>>> 0cbd0528ba1c1bf94cbcff8b6b5653b6454df9da
                     b.HasKey("Id");
 
                     b.ToTable("Users");
