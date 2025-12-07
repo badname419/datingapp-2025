@@ -53,7 +53,7 @@ export class AccountService {
           this.logout();
         }
       })
-    }, 5 * 60 * 1000)
+    }, 14 * 24 * 60 * 60 * 1000) //14 days, only because of free Azure plan, otherwise 5 minutes
   }
 
   setCurrentUser(user: User) {
